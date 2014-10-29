@@ -1,9 +1,9 @@
 docker-bluster
 ==============
 
-Docker image for bluster
+Docker image for bluster.
 
-This docker image provides a bluster (https://github.com/rafaelmartins/bluster) application.
+This docker image provides a bluster (https://github.com/rafaelmartins/bluster) application. The easiest way to deploy bluster!
 
 This image does not installs a full web stack. It just runs bluster as a FastCGI application, listening to port 8080. You must redirect this port to a host port and use nginx (or any other FastCGI capable webserver) there to handle the requests and forward them back to the FastCGI application running in this docker image.
 
